@@ -1,0 +1,6 @@
+NOTES:
+This Script must be running with login this server
+username : shopee
+address : 209.97.161.148
+
+Thanks's

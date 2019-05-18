@@ -1,0 +1,17 @@
+#blog setting
+wordpressUsername: lkurniawan
+wordpressPassword: lkurniawan
+wordpressEmail: 14linggar@gmail.com
+wordpressFirstName: hello world shopee
+wordpressLastName: lkurniawan
+wordpressBlogName: hello world shopee
+
+# database external setting
+externalDatabase:
+  host: 209.97.161.148
+  user: wordpress_user
+  password: wordpress_user
+  database: wordpress
+
+mariadb:
+  enabled: false
