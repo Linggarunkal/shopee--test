@@ -3,4 +3,14 @@ This Script must be running with login this server
 username : shopee
 address : 209.97.161.148
 
-Thanks's
+# Prepare Database server
+
+#crete database for wordpress
+SQL> create database wordpress;
+
+#create user for access wordpress database
+SQL> create user 'wordpress_user'@'%' identified by 'wordpress_user';
+
+#grant access from wordpress database to wordpress_user
+SQL> grant all privileges on wordpress.* to 'wordpress_user'@'%';
+SQL> flush privileges;
